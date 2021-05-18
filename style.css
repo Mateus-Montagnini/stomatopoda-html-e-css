@@ -4,16 +4,34 @@ body {
     background-color: blanchedalmond;
 }
 
-.header {
+header {
     text-align: center;
     font-family: 'Newsreader', serif;
-    background-color: aqua;
+    background-color: rgb(129, 194, 194);
     height: 80px;
-    border: 2px solid aqua;
+    border: 2px solid rgb(104, 146, 146);
+    padding: 50px;
 }
 
 h2 {
     text-align: center;
+    margin-top: 100px;
+    font-family: 'Newsreader', serif;
+}
+
+h3 {
+    font-family: 'Newsreader', serif;
+    text-align: center;
+}
+
+.nav-list li {
+    background-color: salmon;
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+
+
 }
 
 .link-list li {
@@ -23,6 +41,12 @@ h2 {
     display: inline-block;
     border-radius: 5%;
     color: black;
+    margin: 10px;
+}
+
+li:hover {
+    font-size: 20px;
+    padding: 20px;
 }
 
 a {
@@ -42,8 +66,13 @@ ul {
 }
 
 article {
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+}
+
+p { 
+    font-family: 'Montserrat', sans-serif;;
 }
 
 #photo1 {
@@ -75,4 +104,19 @@ table, th, td {
     margin:auto;
     border: 1px solid black;
     margin-top: 20px;
+}
+
+iframe {
+    position: fixed;
+    right: 5%;
+    top: 20px;
+    width: 460px;
+    height: 300px;
+    margin-top: 280px;
+}
+
+footer {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 20px;
 }
